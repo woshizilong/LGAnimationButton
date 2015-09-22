@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350F90BB1BAFFAD800C3993F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90BA1BAFFAD800C3993F /* main.m */; };
+		350F90BE1BAFFAD800C3993F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90BD1BAFFAD800C3993F /* AppDelegate.m */; };
+		350F90C11BAFFAD800C3993F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90C01BAFFAD800C3993F /* ViewController.m */; };
+		350F90C41BAFFAD800C3993F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350F90C21BAFFAD800C3993F /* Main.storyboard */; };
+		350F90C61BAFFAD800C3993F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350F90C51BAFFAD800C3993F /* Assets.xcassets */; };
+		350F90C91BAFFAD800C3993F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350F90C71BAFFAD800C3993F /* LaunchScreen.storyboard */; };
+		350F90D41BAFFAD800C3993F /* LGAnimationButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90D31BAFFAD800C3993F /* LGAnimationButtonTests.m */; };
+		350F90DF1BAFFAD800C3993F /* LGAnimationButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90DE1BAFFAD800C3993F /* LGAnimationButtonUITests.m */; };
+		350F90EF1BAFFB1F00C3993F /* LGAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90EE1BAFFB1F00C3993F /* LGAnimationLayer.m */; settings = {ASSET_TAGS = (); }; };
+		350F90F11BB0020700C3993F /* LGAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 350F90F01BB0020700C3993F /* LGAnimation.bundle */; settings = {ASSET_TAGS = (); }; };
+		350F90F41BB0031F00C3993F /* LGEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90F31BB0031F00C3993F /* LGEmitterLayer.m */; settings = {ASSET_TAGS = (); }; };
+		350F90F71BB0111B00C3993F /* LGAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 350F90F61BB0111B00C3993F /* LGAnimationButton.m */; settings = {ASSET_TAGS = (); }; };
+		352A56BF1BB0ECCE00EC9A44 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A56BE1BB0ECCE00EC9A44 /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		352A56C21BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A56C11BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.m */; settings = {ASSET_TAGS = (); }; };
+		352A56C51BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A56C41BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.m */; settings = {ASSET_TAGS = (); }; };
+		352A56C81BB1103800EC9A44 /* LGInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A56C71BB1103800EC9A44 /* LGInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
+		354DC7361BB0337C00A03177 /* LGAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 354DC7351BB0337C00A03177 /* LGAnimatedTransitioning.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350F90D01BAFFAD800C3993F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350F90AE1BAFFAD800C3993F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350F90B51BAFFAD800C3993F;
+			remoteInfo = LGAnimationButton;
+		};
+		350F90DB1BAFFAD800C3993F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350F90AE1BAFFAD800C3993F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350F90B51BAFFAD800C3993F;
+			remoteInfo = LGAnimationButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350F90B61BAFFAD800C3993F /* LGAnimationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGAnimationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350F90BA1BAFFAD800C3993F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		350F90BC1BAFFAD800C3993F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		350F90BD1BAFFAD800C3993F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		350F90BF1BAFFAD800C3993F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		350F90C01BAFFAD800C3993F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		350F90C31BAFFAD800C3993F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350F90C51BAFFAD800C3993F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350F90C81BAFFAD800C3993F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350F90CA1BAFFAD800C3993F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350F90CF1BAFFAD800C3993F /* LGAnimationButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGAnimationButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350F90D31BAFFAD800C3993F /* LGAnimationButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAnimationButtonTests.m; sourceTree = "<group>"; };
+		350F90D51BAFFAD800C3993F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350F90DA1BAFFAD800C3993F /* LGAnimationButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGAnimationButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350F90DE1BAFFAD800C3993F /* LGAnimationButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAnimationButtonUITests.m; sourceTree = "<group>"; };
+		350F90E01BAFFAD800C3993F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350F90ED1BAFFB1F00C3993F /* LGAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAnimationLayer.h; sourceTree = "<group>"; };
+		350F90EE1BAFFB1F00C3993F /* LGAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAnimationLayer.m; sourceTree = "<group>"; };
+		350F90F01BB0020700C3993F /* LGAnimation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LGAnimation.bundle; sourceTree = "<group>"; };
+		350F90F21BB0031F00C3993F /* LGEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGEmitterLayer.h; sourceTree = "<group>"; };
+		350F90F31BB0031F00C3993F /* LGEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGEmitterLayer.m; sourceTree = "<group>"; };
+		350F90F51BB0111B00C3993F /* LGAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAnimationButton.h; sourceTree = "<group>"; };
+		350F90F61BB0111B00C3993F /* LGAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAnimationButton.m; sourceTree = "<group>"; };
+		352A56BD1BB0ECCE00EC9A44 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		352A56BE1BB0ECCE00EC9A44 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		352A56C01BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDismissAnimatedTransitioning.h; sourceTree = "<group>"; };
+		352A56C11BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDismissAnimatedTransitioning.m; sourceTree = "<group>"; };
+		352A56C31BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNavigationAnimationTransitioning.h; sourceTree = "<group>"; };
+		352A56C41BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNavigationAnimationTransitioning.m; sourceTree = "<group>"; };
+		352A56C61BB1103800EC9A44 /* LGInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGInteractiveTransition.h; sourceTree = "<group>"; };
+		352A56C71BB1103800EC9A44 /* LGInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGInteractiveTransition.m; sourceTree = "<group>"; };
+		354DC7341BB0337C00A03177 /* LGAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAnimatedTransitioning.h; sourceTree = "<group>"; };
+		354DC7351BB0337C00A03177 /* LGAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAnimatedTransitioning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350F90B31BAFFAD800C3993F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90CC1BAFFAD800C3993F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90D71BAFFAD800C3993F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350F90AD1BAFFAD800C3993F = {
+			isa = PBXGroup;
+			children = (
+				350F90B81BAFFAD800C3993F /* LGAnimationButton */,
+				350F90D21BAFFAD800C3993F /* LGAnimationButtonTests */,
+				350F90DD1BAFFAD800C3993F /* LGAnimationButtonUITests */,
+				350F90B71BAFFAD800C3993F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350F90B71BAFFAD800C3993F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350F90B61BAFFAD800C3993F /* LGAnimationButton.app */,
+				350F90CF1BAFFAD800C3993F /* LGAnimationButtonTests.xctest */,
+				350F90DA1BAFFAD800C3993F /* LGAnimationButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350F90B81BAFFAD800C3993F /* LGAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				350F90EC1BAFFAFF00C3993F /* LGAnimationButton */,
+				350F90BC1BAFFAD800C3993F /* AppDelegate.h */,
+				350F90BD1BAFFAD800C3993F /* AppDelegate.m */,
+				350F90BF1BAFFAD800C3993F /* ViewController.h */,
+				350F90C01BAFFAD800C3993F /* ViewController.m */,
+				352A56BD1BB0ECCE00EC9A44 /* TestViewController.h */,
+				352A56BE1BB0ECCE00EC9A44 /* TestViewController.m */,
+				350F90C21BAFFAD800C3993F /* Main.storyboard */,
+				350F90C51BAFFAD800C3993F /* Assets.xcassets */,
+				350F90C71BAFFAD800C3993F /* LaunchScreen.storyboard */,
+				350F90CA1BAFFAD800C3993F /* Info.plist */,
+				350F90B91BAFFAD800C3993F /* Supporting Files */,
+			);
+			path = LGAnimationButton;
+			sourceTree = "<group>";
+		};
+		350F90B91BAFFAD800C3993F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350F90BA1BAFFAD800C3993F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350F90D21BAFFAD800C3993F /* LGAnimationButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				350F90D31BAFFAD800C3993F /* LGAnimationButtonTests.m */,
+				350F90D51BAFFAD800C3993F /* Info.plist */,
+			);
+			path = LGAnimationButtonTests;
+			sourceTree = "<group>";
+		};
+		350F90DD1BAFFAD800C3993F /* LGAnimationButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350F90DE1BAFFAD800C3993F /* LGAnimationButtonUITests.m */,
+				350F90E01BAFFAD800C3993F /* Info.plist */,
+			);
+			path = LGAnimationButtonUITests;
+			sourceTree = "<group>";
+		};
+		350F90EC1BAFFAFF00C3993F /* LGAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				350F90F01BB0020700C3993F /* LGAnimation.bundle */,
+				350F90ED1BAFFB1F00C3993F /* LGAnimationLayer.h */,
+				350F90EE1BAFFB1F00C3993F /* LGAnimationLayer.m */,
+				350F90F21BB0031F00C3993F /* LGEmitterLayer.h */,
+				350F90F31BB0031F00C3993F /* LGEmitterLayer.m */,
+				350F90F51BB0111B00C3993F /* LGAnimationButton.h */,
+				350F90F61BB0111B00C3993F /* LGAnimationButton.m */,
+				354DC7341BB0337C00A03177 /* LGAnimatedTransitioning.h */,
+				354DC7351BB0337C00A03177 /* LGAnimatedTransitioning.m */,
+				352A56C01BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.h */,
+				352A56C11BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.m */,
+				352A56C31BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.h */,
+				352A56C41BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.m */,
+				352A56C61BB1103800EC9A44 /* LGInteractiveTransition.h */,
+				352A56C71BB1103800EC9A44 /* LGInteractiveTransition.m */,
+			);
+			path = LGAnimationButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350F90B51BAFFAD800C3993F /* LGAnimationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350F90E31BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButton" */;
+			buildPhases = (
+				350F90B21BAFFAD800C3993F /* Sources */,
+				350F90B31BAFFAD800C3993F /* Frameworks */,
+				350F90B41BAFFAD800C3993F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGAnimationButton;
+			productName = LGAnimationButton;
+			productReference = 350F90B61BAFFAD800C3993F /* LGAnimationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350F90CE1BAFFAD800C3993F /* LGAnimationButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350F90E61BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButtonTests" */;
+			buildPhases = (
+				350F90CB1BAFFAD800C3993F /* Sources */,
+				350F90CC1BAFFAD800C3993F /* Frameworks */,
+				350F90CD1BAFFAD800C3993F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350F90D11BAFFAD800C3993F /* PBXTargetDependency */,
+			);
+			name = LGAnimationButtonTests;
+			productName = LGAnimationButtonTests;
+			productReference = 350F90CF1BAFFAD800C3993F /* LGAnimationButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350F90D91BAFFAD800C3993F /* LGAnimationButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350F90E91BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButtonUITests" */;
+			buildPhases = (
+				350F90D61BAFFAD800C3993F /* Sources */,
+				350F90D71BAFFAD800C3993F /* Frameworks */,
+				350F90D81BAFFAD800C3993F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350F90DC1BAFFAD800C3993F /* PBXTargetDependency */,
+			);
+			name = LGAnimationButtonUITests;
+			productName = LGAnimationButtonUITests;
+			productReference = 350F90DA1BAFFAD800C3993F /* LGAnimationButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350F90AE1BAFFAD800C3993F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jamy;
+				TargetAttributes = {
+					350F90B51BAFFAD800C3993F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					350F90CE1BAFFAD800C3993F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 350F90B51BAFFAD800C3993F;
+					};
+					350F90D91BAFFAD800C3993F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 350F90B51BAFFAD800C3993F;
+					};
+				};
+			};
+			buildConfigurationList = 350F90B11BAFFAD800C3993F /* Build configuration list for PBXProject "LGAnimationButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350F90AD1BAFFAD800C3993F;
+			productRefGroup = 350F90B71BAFFAD800C3993F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350F90B51BAFFAD800C3993F /* LGAnimationButton */,
+				350F90CE1BAFFAD800C3993F /* LGAnimationButtonTests */,
+				350F90D91BAFFAD800C3993F /* LGAnimationButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350F90B41BAFFAD800C3993F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350F90C91BAFFAD800C3993F /* LaunchScreen.storyboard in Resources */,
+				350F90F11BB0020700C3993F /* LGAnimation.bundle in Resources */,
+				350F90C61BAFFAD800C3993F /* Assets.xcassets in Resources */,
+				350F90C41BAFFAD800C3993F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90CD1BAFFAD800C3993F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90D81BAFFAD800C3993F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350F90B21BAFFAD800C3993F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352A56C81BB1103800EC9A44 /* LGInteractiveTransition.m in Sources */,
+				350F90C11BAFFAD800C3993F /* ViewController.m in Sources */,
+				352A56C51BB0FAE900EC9A44 /* LGNavigationAnimationTransitioning.m in Sources */,
+				354DC7361BB0337C00A03177 /* LGAnimatedTransitioning.m in Sources */,
+				350F90EF1BAFFB1F00C3993F /* LGAnimationLayer.m in Sources */,
+				350F90BE1BAFFAD800C3993F /* AppDelegate.m in Sources */,
+				350F90F71BB0111B00C3993F /* LGAnimationButton.m in Sources */,
+				350F90F41BB0031F00C3993F /* LGEmitterLayer.m in Sources */,
+				352A56C21BB0F18300EC9A44 /* LGDismissAnimatedTransitioning.m in Sources */,
+				352A56BF1BB0ECCE00EC9A44 /* TestViewController.m in Sources */,
+				350F90BB1BAFFAD800C3993F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90CB1BAFFAD800C3993F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350F90D41BAFFAD800C3993F /* LGAnimationButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350F90D61BAFFAD800C3993F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350F90DF1BAFFAD800C3993F /* LGAnimationButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350F90D11BAFFAD800C3993F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350F90B51BAFFAD800C3993F /* LGAnimationButton */;
+			targetProxy = 350F90D01BAFFAD800C3993F /* PBXContainerItemProxy */;
+		};
+		350F90DC1BAFFAD800C3993F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350F90B51BAFFAD800C3993F /* LGAnimationButton */;
+			targetProxy = 350F90DB1BAFFAD800C3993F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350F90C21BAFFAD800C3993F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350F90C31BAFFAD800C3993F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350F90C71BAFFAD800C3993F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350F90C81BAFFAD800C3993F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350F90E11BAFFAD800C3993F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		350F90E21BAFFAD800C3993F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350F90E41BAFFAD800C3993F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGAnimationButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		350F90E51BAFFAD800C3993F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGAnimationButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		350F90E71BAFFAD800C3993F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGAnimationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGAnimationButton.app/LGAnimationButton";
+			};
+			name = Debug;
+		};
+		350F90E81BAFFAD800C3993F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGAnimationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGAnimationButton.app/LGAnimationButton";
+			};
+			name = Release;
+		};
+		350F90EA1BAFFAD800C3993F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGAnimationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGAnimationButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		350F90EB1BAFFAD800C3993F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGAnimationButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGAnimationButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350F90B11BAFFAD800C3993F /* Build configuration list for PBXProject "LGAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350F90E11BAFFAD800C3993F /* Debug */,
+				350F90E21BAFFAD800C3993F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350F90E31BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350F90E41BAFFAD800C3993F /* Debug */,
+				350F90E51BAFFAD800C3993F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350F90E61BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350F90E71BAFFAD800C3993F /* Debug */,
+				350F90E81BAFFAD800C3993F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350F90E91BAFFAD800C3993F /* Build configuration list for PBXNativeTarget "LGAnimationButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350F90EA1BAFFAD800C3993F /* Debug */,
+				350F90EB1BAFFAD800C3993F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350F90AE1BAFFAD800C3993F /* Project object */;
+}
